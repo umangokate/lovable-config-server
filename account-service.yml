@@ -1,0 +1,10 @@
+server:
+  port: 9010
+  servlet.context-path: /account
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:9000/test?sslmode=disable
+    username: umang
+    password: 12345
+    driver-class-name: org.postgresql.Driver
