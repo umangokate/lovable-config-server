@@ -4,7 +4,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:9000/test?sslmode=disable
+    url: jdbc:postgresql://localhost:9000/lovable-account-db?sslmode=disable
     username: umang
     password: 12345
     driver-class-name: org.postgresql.Driver
