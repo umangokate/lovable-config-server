@@ -6,7 +6,7 @@ spring:
     gatewat.server.webflux:
       routes:
         - id: account-service
-          uri: lb://acount-service
+          uri: lb://account-service
           predicates:
             - Path=/api/v1/account/**
           filters:
