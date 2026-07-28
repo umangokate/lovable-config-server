@@ -8,3 +8,11 @@ spring:
     username: umang
     password: 12345
     driver-class-name: org.postgresql.Driver
+  
+  ai:
+    openai:
+      api-key: ${OPENROUTER_API_KEY}
+      base-url: https://openrouter.ai/api/v1
+      chat:
+        options:
+          model: google/gemma-4-31b-it:free
