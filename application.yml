@@ -15,7 +15,7 @@ eureka:
       register-with-eureka: true
       fetch-registery: true
     instance:
-      prefer-ip-address:
+      prefer-ip-address: true
       hostname: localhost
       
 jwt:
