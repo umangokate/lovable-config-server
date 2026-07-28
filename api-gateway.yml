@@ -3,7 +3,7 @@ server:
 
 spring:
   cloud:
-    gatewat.server.webflux:
+    gateway.server.webflux:
       routes:
         - id: account-service
           uri: lb://account-service
